@@ -1,0 +1,54 @@
+#  Task 2: Phishing Email Analysis
+
+##  Objective
+To identify phishing characteristics in a sample email and learn how attackers use social engineering to deceive victims.
+
+---
+
+##  Sample Email Summary
+
+> Subject: “Your Account Has Been Suspended - Immediate Action Required!”
+> From: `support@paypa1.com`  
+> To: `<myemail@example.com>`
+> Link: `http://paypa1-verification-update.com/login`
+
+---
+
+##  Phishing Indicators Found
+
+| Indicator                      | Description |
+|-------------------------------|-------------|
+| **Spoofed Email Address**     | `paypa1.com` instead of `paypal.com` |
+| **Urgent Language**           | "Account suspended", "Immediate action" |
+| **Suspicious URL**            | Hovering revealed fake login page |
+| **Grammatical Errors**        | Poor sentence construction |
+| **Generic Greeting**          | “Dear Customer” instead of real name |
+| **Misleading Links**          | Displayed URL masked real phishing domain |
+| **Fake Domain**               | Domain not linked to actual PayPal servers |
+
+---
+
+##  Key Learnings
+
+- Always verify email headers and sender domains.
+- Phishing relies heavily on **fear tactics and urgency**.
+- Attackers use **typosquatting** to imitate legitimate domains.
+- **Header analyzers** reveal inconsistencies in email routing.
+
+---
+
+##  Recommendations
+
+- Never click unknown links or download unsolicited attachments.
+- Always check URLs before logging into any account.
+- Report phishing emails to IT/security teams or the email provider.
+
+---
+## Activity
+- Performed the job simulation of phising email analysis at forage and obtained jon simulation certificate.
+---
+
+##  Outcome
+- Developed awareness of common phishing techniques
+- Learned to analyze email headers and link spoofing
+- Practiced safe email behavior to reduce security risks
